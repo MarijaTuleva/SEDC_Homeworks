@@ -6,7 +6,7 @@ let withdrawMoney = parseInt(prompt("Welcome to the ATM.\n You have " + String(m
 let moneyLeft = requestMoney();
 
 function requestMoney(){
-    result = money - withdrawMoney;
+    let result = money - withdrawMoney;
     return result;
 }
 
